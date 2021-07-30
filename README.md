@@ -24,6 +24,20 @@ databaseReference= FirebaseDatabase.getInstance().getReference().child("Users");
 ## RecyclerView Android
 
 ```java
+public class customUsersViewHolder extends RecyclerView.ViewHolder{
+
+        TextView username_textView;
+        ImageView dp_imageView;
+        CardView userContainer;
+
+        public customUsersViewHolder(@NonNull View itemView) {
+            super(itemView);
+            username_textView=itemView.findViewById(R.id.card_username_textview);
+            dp_imageView=itemView.findViewById(R.id.card_image_view);
+            userContainer=itemView.findViewById(R.id.card_user_list_container);
+        }
+    }
+    
 public  class customRecyclerView extends RecyclerView.Adapter<customUsersViewHolder>{
         @NonNull
 
