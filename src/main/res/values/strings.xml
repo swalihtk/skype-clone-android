@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Skype Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agora_app_id">f16401573cad4171ac328d97f987c962</string>
+    <string name="agora_access_token"></string>
+</resources>
